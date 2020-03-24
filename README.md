@@ -3,7 +3,7 @@ My OSX / Ubuntu / Debian dotfiles. Based on [Ryan Bates Dotfiles](http://github.
 
 ## Install
 ```
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/riobahtiar/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
