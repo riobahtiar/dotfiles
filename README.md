@@ -5,4 +5,5 @@ My OSX / Ubuntu / Debian dotfiles. Based on [Ryan Bates Dotfiles](http://github.
 ```
 git clone https://github.com/holman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-script/bootstrap```
+script/bootstrap
+```
