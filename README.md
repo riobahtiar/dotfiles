@@ -1,5 +1,5 @@
 # Dotfiles
-My OSX / Ubuntu / Debian dotfiles. Based on [Ryan Bates Dotfiles](http://github.com/ryanb/dotfiles) 
+My OSX / Ubuntu / Debian dotfiles. Based on [Holman Dotfiles](https://github.com/holman/dotfiles) 
 
 ## Install
 ```
