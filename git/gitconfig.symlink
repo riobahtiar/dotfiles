@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = /Users/rio/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
@@ -33,3 +33,16 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[gui]
+	recentrepo = /Users/rio/vvv/www/daftarsantri/public_html
+[user]
+	name = Rio Bahtiar
+	email = akhibahtiar@gmail.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/rio/.stCommitMsg
