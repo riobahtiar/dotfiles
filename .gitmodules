@@ -1,0 +1,3 @@
+[submodule "php/wpcs"]
+	path = php/wpcs
+	url = git@github.com:WordPress/WordPress-Coding-Standards.git
