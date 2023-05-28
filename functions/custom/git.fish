@@ -14,3 +14,8 @@ function g-ac
         git commit -m $argv
     end
 end
+
+# git create new branch from current branch
+function g-new
+    git checkout -b $argv
+end
