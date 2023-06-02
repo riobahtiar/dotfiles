@@ -28,3 +28,9 @@ function g-push
         git push origin $branch_name
     end
 end
+
+# git pull origin to current branch
+function g-pull
+    set -l branch_name (git symbolic-ref --short HEAD)
+    git pull origin $branch_name
+end
